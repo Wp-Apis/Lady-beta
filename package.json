@@ -1,15 +1,43 @@
 {
-  "name": "yt-audio-download",
-  "version": "1.0.0",
-  "description": "API para buscar e baixar áudio de vídeos do YouTube usando Any4K API",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
-    "axios": "",
-    "express": ""
+    "@whiskeysockets/baileys": "^6.7.16",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@fizzxydev/baileys-pro": "^8.6.8",
+    "axios": "^0.21.1",
+    "cfonts": "^2.10.0",
+    "cheerio": "^1.0.0-rc.12",
+    "colors": "^1.4.0",
+    "escape-string-regexp": "^1.0.5",
+    "fake-useragent": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.1.0",
+    "jimp": "",
+    "acrcloud": "",
+    "assemblyai": "",
+    "aki-api": "",
+    "jsdom": "^19.0.0",
+    "linkifyjs": "^4.1.0",
+    "moment-timezone": "^0.5.40",
+    "multistream": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "node-cache": "",
+    "node-webpmux": "^3.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "awesome-phonenumber": ""
   },
-  "author": "Seu Nome",
+  "name": "LADY-BOT",
+  "description": "<div align=\"center\"> <img src=\"https://telegra.ph/file/fb00d09b7dfbf0b11d364.jpg\" alt=\"BLACK MD - BOT\" width=\"300\" />",
+  "version": "4.2.8",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "sh blackmd.sh",
+    "test": "node start.js"
+  },
+  "keywords": [
+    "BOT"
+  ],
+  "author": "matheuzinho",
   "license": "MIT"
 }
