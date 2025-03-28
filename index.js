@@ -1,6 +1,15 @@
 
 //=======================================*/
+const express = require('express');
+const app = express();
 
+app.get('/', (req, res) => {
+    res.send('Servidor rodando no localhost:3000');
+});
+
+app.listen(3000, () => {
+    console.log('Servidor iniciado em http://localhost:3000');
+});
 const { downloadContentFromMessage, relayWAMessage, mentionedJid, processTime, MediaType, Browser, MessageType, Presence, Mimetype, Browsers, delay, getLastMessageInChat, prepareWAMessageMedia } = require('@whiskeysockets/baileys');
 
 //_-_-_-__-_-_-_-_-_-MODULOS/FUNÇÕES-_-_-_-_-_-__-_-_-_-_-\\
