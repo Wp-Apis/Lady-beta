@@ -1,19 +1,15 @@
 {
-  "dependencies": 
+  "name": "yt-audio-download",
+  "version": "1.0.0",
+  "description": "API para buscar e baixar áudio de vídeos do YouTube usando Any4K API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "",
     "express": ""
   },
-  "name": "Lady-bot",
-  "description": "<div align=\"center\"> <img src=\"https://telegra.ph/file/fb00d09b7dfbf0b11d364.jpg\" alt=\"BLACK MD - BOT\" width=\"300\" />",
-  "version": "5",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "start": "sh blackmd.sh",
-    "test": "node start.js"
-  },
-  "keywords": [
-    "BOT"
-  ],
-  "author": "luanzin",
+  "author": "Seu Nome",
   "license": "MIT"
 }
